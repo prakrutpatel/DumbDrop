@@ -638,6 +638,7 @@
             
             const groupedItems = groupFilesByFolder(files);
             
+            
             const results = await Promise.all(
                 groupedItems.map(async item => {
                     let success = true;
